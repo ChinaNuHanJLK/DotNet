@@ -1,0 +1,113 @@
+http://192.168.90.100:8088/forum.php
+
+jdk配置：http://www.cnblogs.com/shinge/articles/5500002.html
+移动端框架：http://www.cocoachina.com/webapp/20141222/10718.html
+教程：http://www.runoob.com/csharp/csharp-file-io.html
+
+
+nginx
+2013/07/09 10:45:10 [emerg] 7292#6872: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+
+jianglk     123456
+http://192.168.1.131:8080/view_all_bug_page.php 
+
+
+世界网站大全：
+http://www.world68.com/sort.asp?bid=5
+
+excelreport
+http://www.cnblogs.com/hanzhaoxin/p/4472860.html
+
+C#基础：http://www.cnblogs.com/wuwangqianxun/
+http://www.cnblogs.com/aehyok/p/3505000.html
+mvc:
+http://aspnetwebstack.codeplex.com/SourceControl/latest
+http://www.cnblogs.com/JustRun1983/p/3591036.html//验证
+框架地址
+https://github.com/shuxinqin/Ace
+https://www.github.com/shuxinqin/Chloe
+http://www.cnblogs.com/micro-chen/p/5794360.html
+分布式：
+http://www.cnblogs.com/savorboard/p/cap.html
+dockeer
+https://get.daocloud.io/toolbox/
+js：
+一般最好不要使用eval（）
+angularjs
+https://github.com/angular/angular.js/wiki/Projects-using-AngularJS
+https://github.com/yearofmoo/angularjs-fitc-animations-demo
+https://github.com/zhufengzhufeng/angularjs //详细教程
+Asp.net MVC
+http://www.cnblogs.com/artech/archive/2012/04/10/how-mvc-works.html
+http://www.cnblogs.com/liontone/p/4640505.html
+Redis下载：
+https://github.com/MicrosoftArchive/redis/releases
+excle导入转sql：http://www.cnblogs.com/xianyun/articles/327830.html
+Date 类型转换：
+var date = new Date（'时间'）；
+date是带有中国标准时间的；
+date类型的月默认会少一个月,所以要加一个月
+
+===和==的区别
+===是恒等式，类型要一致，用于数字类型的相等建议用===
+
+例如：''==0 //true
+//js拷贝
+http://transcoder.baiducontent.com/from=1099a/bd_page_type=1/ssid=0/uid=0/baiduid=D68CE2AA8AC9AD34AFB94BE0FD195359/w=0_10_/t=zbios/l=3/tc?ref=www_zbios&pu=sz%401320_480%2Ccuid%40D45B6C440132E65DF3CF70A0845D0B9F61AF63D40ORHABBKNEJ%2Ccua%40750_1334_iphone_8.0.1.9_0%2Ccut%40iPhone7%252C2_9.3.1%2Cosname%40baiduboxapp%2Cctv%401%2Ccfrom%401099a%2Ccsrc%40app_box_txt%2Cta%40zbios_1_9.3_6_8.0%2Cusm%401%2Cvmgdb%400020100228y&lid=11128390339657336185&order=3&fm=alop&waplogo=1&h5ad=1&srd=1&dict=32&tj=www_normal_3_0_10_title&vit=osres&waput=1&cltj=normal_title&asres=1&title=js%E5%AF%B9%E8%B1%A1%E6%B5%85%E6%8B%B7%E8%B4%9D%E5%92%8C%E6%B7%B1%E6%8B%B7%E8%B4%9D%E8%AF%A6%E8%A7%A3_javascript%E6%8A%80%E5%B7%A7_%E8%84%9A%E6%9C%AC%E4%B9%8B%E5%AE%B6&w_qd=IlPT2AEptyoA_yivDsZqyaXwIoAvhCVUupFIk_iUzrxWSq&sec=23720&di=c1dd7c20c50277ff&bdenc=1&tch=124.300.45.450.0.0&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IGtiLN8kJLDSriYjpnPHxF26dXjKqAp84UpydciyGdMG&eqid=9a6ffc0d9d2a08001000000559ad1539&wd=&clk_info=%7B%22srcid%22%3A%221599%22%2C%22tplname%22%3A%22www_normal%22%2C%22t%22%3A1504515390365%2C%22sig%22%3A%2216207%22%2C%22xpath%22%3A%22div-a-h3%22%7D
+
+
+angularjs部分
+
+一个页面只允许出现一个ng-app
+
+
+
+
+
+
+
+
+asp.net core 
+
+http://www.cnblogs.com/wer-ltm/p/6528552.html
+
+public CellRangeAddress(int firstRow, int lastRow, int firstCol, int lastCol);
+
+正则表达式：
+\d代表数字
+
+
+行业名称合并第一列到最后一列
+
+var status = Request.Form["status"];
+  ,(StatusType)Enum.Parse(typeof(StatusType), status)
+
+
+
+
+代码资源：
+https://github.com/wipphj/MyGraduationProject/tree/master/CarManager
+
+
+sql:http://www.cnblogs.com/ShaYeBlog/archive/2013/07/31/3227244.html
+
+世界大学排名：https://www.timeshighereducation.com/world-university-rankings/2018/world-ranking#!/page/0/length/25/sort_by/rank/sort_order/asc/cols/stats
+
+sql:
+http://blog.csdn.net/sforiz/article/details/5345359
+http://www.cnblogs.com/liujiangping/p/5843856.html
+
+
+
+软件设计：http://www.cnblogs.com/yanyangtian/archive/2010/10/25/1860074.html
+①②③④⑤⑥⑦⑧⑨⑩
+
+
+
+java jar包源
+http://www.mvnrepository.com/
+
+
+MSDN:
+doc:https://msdn.microsoft.com/zh-cn/library/system.io.aspx
+源码：http://referencesource.microsoft.com/#mscorlib/system/io/file.cs,1c7421e464f67b7e
