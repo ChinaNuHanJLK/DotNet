@@ -12,78 +12,39 @@ namespace DotNetFW
     {
         static void Main(string[] args)
         {
-            //  Create a FileSystemWatcher to monitor all files on drive C.
-            FileSystemWatcher fsw = new FileSystemWatcher("D:\\");
 
-            //  Watch for changes in LastAccess and LastWrite times, and
-            //  the renaming of files or directories. 
-            fsw.NotifyFilter = NotifyFilters.LastAccess | NotifyFilters.LastWrite
-                               | NotifyFilters.FileName | NotifyFilters.DirectoryName;
-
-            //  Register a handler that gets called when a 
-            //  file is created, changed, or deleted.
-            fsw.Changed += OnChanged;
-
-            fsw.Created += OnChanged;
-
-            fsw.Deleted += OnChanged;
-
-            //  Register a handler that gets called when a file is renamed.
-            fsw.Renamed += OnRenamed;
-
-            //  Register a handler that gets called if the 
-            //  FileSystemWatcher needs to report an error.
-            fsw.Error += OnError;
-
-            //  Begin watching.
-            fsw.EnableRaisingEvents = true;
-
-            Console.WriteLine("Press \'Enter\' to quit the sample.");
-            Console.ReadLine();
-
-
-
-        }
-
-
-        private static void OnChanged(object source, FileSystemEventArgs e)
-        {
-            //  Show that a file has been created, changed, or deleted.
-            WatcherChangeTypes wct = e.ChangeType;
-            Console.WriteLine("File {0} {1}", e.FullPath, wct.ToString());
-        }
-
-
-        private static void OnRenamed(object source, RenamedEventArgs e)
-        {
-            //  Show that a file has been renamed.
-            WatcherChangeTypes wct = e.ChangeType;
-            Console.WriteLine("File {0} {2} to {1}", e.OldFullPath, e.FullPath, wct.ToString());
-        }
-
-        //  This method is called when the FileSystemWatcher detects an error.
-        private static void OnError(object source, ErrorEventArgs e)
-        {
-            //  Show that an error has been detected.
-            Console.WriteLine("The FileSystemWatcher has detected an error");
-            //  Give more information if the error is due to an internal buffer overflow.
-            if (e.GetException().GetType() == typeof(InternalBufferOverflowException))
-            {
-                //  This can happen if Windows is reporting many file system events quickly 
-                //  and internal buffer of the  FileSystemWatcher is not large enough to handle this
-                //  rate of events. The InternalBufferOverflowException error informs the application
-                //  that some of the file system events are being lost.
-                Console.WriteLine(("The file system watcher experienced an internal buffer overflow: " + e.GetException().Message));
-            }
+          
         }
     }
 
 
 
-   
+
 
     public class Test
     {
+
+        #region 数据类型
+        //Enumerable
+        //string str;
+        //int a = 1;
+        //double number;
+        //float num;
+        //bool flag;
+        //DateTime dataTime;
+        //Enum eEnum;
+        //byte bytes;
+        //long numone;
+        //short numtwo;
+        //sbyte bSbyte;
+        //ulong onUlong;
+        //decimal dDecimal;
+        //char dchar;
+        //object obj = null;
+        //var result = obj is null;
+        //var f = obj as object;
+        #endregion
+
         #region File 类
         //if (File.Exists("D:/2.txt"))
         //{
@@ -191,6 +152,77 @@ namespace DotNetFW
         //            d.TotalSize);
         //    }
         //}
+        #endregion
+
+        #region FileSystemEventArgs 类  
+        //  Create a FileSystemWatcher to monitor all files on drive C.
+        //FileSystemWatcher fsw = new FileSystemWatcher("D:\\")
+        //{
+        //    NotifyFilter = NotifyFilters.LastAccess | NotifyFilters.LastWrite
+        //                   | NotifyFilters.FileName | NotifyFilters.DirectoryName
+        //};
+
+        ////  Watch for changes in LastAccess and LastWrite times, and
+        ////  the renaming of files or directories. 
+
+        ////  Register a handler that gets called when a 
+        ////  file is created, changed, or deleted.
+        //fsw.Changed += OnChanged;
+
+        //fsw.Created += OnChanged;
+
+        //fsw.Deleted += OnChanged;
+
+        ////  Register a handler that gets called when a file is renamed.
+        //fsw.Renamed += OnRenamed;
+
+        ////  Register a handler that gets called if the 
+        ////  FileSystemWatcher needs to report an error.
+        //fsw.Error += OnError;
+
+        ////  Begin watching.
+        //fsw.EnableRaisingEvents = true;
+
+        //Console.WriteLine("Press \'Enter\' to quit the sample.");
+        //Console.ReadLine();
+
+        #endregion
+
+        #region MyRegion
+
+
+        private static void OnChanged(object source, FileSystemEventArgs e)
+        {
+            //  Show that a file has been created, changed, or deleted.
+            WatcherChangeTypes wct = e.ChangeType;
+            Console.WriteLine("File {0} {1}", e.FullPath, wct.ToString());
+        }
+
+
+        private static void OnRenamed(object source, RenamedEventArgs e)
+        {
+            //  Show that a file has been renamed.
+            WatcherChangeTypes wct = e.ChangeType;
+            Console.WriteLine("File {0} {2} to {1}", e.OldFullPath, e.FullPath, wct.ToString());
+        }
+
+        //  This method is called when the FileSystemWatcher detects an error.
+
+        private static void OnError(object source, ErrorEventArgs e)
+        {
+            //  Show that an error has been detected.
+            Console.WriteLine("The FileSystemWatcher has detected an error");
+            //  Give more information if the error is due to an internal buffer overflow.
+            if (e.GetException().GetType() == typeof(InternalBufferOverflowException))
+            {
+                //  This can happen if Windows is reporting many file system events quickly 
+                //  and internal buffer of the  FileSystemWatcher is not large enough to handle this
+                //  rate of events. The InternalBufferOverflowException error informs the application
+                //  that some of the file system events are being lost.
+                Console.WriteLine(("The file system watcher experienced an internal buffer overflow: " + e.GetException().Message));
+            }
+        }
+
         #endregion
     }
 }
