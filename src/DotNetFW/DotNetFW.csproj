@@ -49,6 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="readerme.txt" />
+    <Content Include="学习的东西.txt" />
+    <Content Include="要学习的东西.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

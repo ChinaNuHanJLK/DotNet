@@ -1,0 +1,71 @@
+第一部分：.Net高级技术
+
+委托与事件：委托语法、内置委托Func和Action、匿名方法、lambda表达式、lambda的推演、lambda原理探秘、常用扩展方法、事件本质论；
+
+反射：反射、实现通用对象拷贝、Attribute及案例、自动动手写ORM引擎；
+
+
+
+第二部分：ASP.net MVC
+
+Entity Framework：C#6.0新语法、Nuget、var与类型推断、匿名类、dynamic、Entity Framework的使用、三种EF开发模式、linq、EF性能优化、EF本质论、SQL监控、EF中执行原生SQL、导航属性与lazyload；主要讲解目前最流行的FluentAPI方式配置CodeFirst；EF对象状态转换；EF关系配置秘诀（一对多、多对多）；EF实体继承；
+
+ASP.Net MVC：Razor语法详解；分页、数据传输方式（ViewBag、ViewData、TempData、Model）、各种ActionResult、四种Filter（IAuthorizationFilter、IActionFilter、IResultFilter、IExceptionFilter）、HtmlHelper、路由机制、验证、layout；
+
+
+
+第三部分：掌上租项目(点击查看项目介绍)
+
+前端技术：前端MVC引擎(artTemplate)、HUI、MUI（手机端自适应）、ValidForm、Layer；
+
+.Net高级技术：自定义Filter、自定义ModelBinder、ASP.Net MVC+EntityFramework最佳实践；
+
+大型网站架构：UnitTest、AutoFac、分布式架构（Redis、Memecached等）、CDN与云存储、云计算服务（短信验证、SendCloud邮件云）、RBAC权限控制、页面静态化和SSI；数据库并发控制（悲观锁与乐观锁）；
+
+高级开源组件：ElasticSearch全文搜索引擎；Quartz.Net定时调度；UEditor；Log4Net最新版；互联网网站安全（XSS、CSRF等）；CodeCarvings.Piczard（水印、缩略图）；CaptchaGen（验证码）；WebUploader文件无刷新上传；
+
+
+
+第四部分：.Net core+Linux
+
+Linux：“microsoft love linux”战略背后的意义、Linux的安装、Linux常用命令、vim编辑器、Linux文件系统和文件操作、Linux的系统管理、Linux上部署开发环境和运行环境；
+
+.Net core：.Net core的战略意义、对比.Net Framework学.Net core、.Net core开发环境的搭建、如何在Linux下运行.Net core网站、Nginx、对比Entity Framework学Entity Framework Core、对比ASP.Net MVC学ASP.Net MVC Core、MySql数据库、EF Core+MySql；
+
+Docker：什么是Docker、Docker与Devops、Docker在云计算架构中的应用、.Net Core开发中Docker的应用；
+
+Git：GitHub的使用；Git命令行操作；自己搭建Git服务器；
+
+
+
+第五部分：.Net并发编程
+
+多线程：Thread、参数化Thread、线程同步、线程池、多线程中的异常处理、多线程的陷阱、多线程的局限性；
+
+TPL异步编程：TPL与传统APM模型的区别、async与await、异步IO、Entity Framework的异步操作、ASP.Net MVC的异步操作；
+
+Web API：Web API优点；什么是Restful；移动互联网时代多终端开发架构；基于Token的Web API认证；Web API的多版本管理；
+
+
+
+第六部分：NoSQL
+
+MongoDB：MongoDB的优缺点、MongoDB的增删改查、.Net 操作MongoDB、MongoDB应用案例分析；
+
+Redis：Redis的优缺点；Redis常用数据类型（String、List、Set、Sorted Set）、.Net 操作Redis、Redis应用案例分析；
+
+Memcached：Memcached介绍、Memcached 集群、Memcached应用案例分析；
+
+
+
+第七部分：即时通讯项目
+
+这是一个如鹏网训练营使用的IM通讯系统，使用Electron+Web API+VueJs+ASP.Net Core MVC+Redis技术进行开发，全程用Git做源代码管理。
+
+使用Web API开发一个可以供Android、IOS、PC端等多端使用的Open API接口，使用JWT技术实现“无状态分布式授权”；
+
+使用ASP.Net Core MVC开发Web端，使用VueJs实现前后端分离开发，VueJs是一个非常流行的JavaScript库；
+
+客户端使用基于NodeJS的Electron技术开发，可以运行在Windows、Linux、Mac等多平台上；
+
+

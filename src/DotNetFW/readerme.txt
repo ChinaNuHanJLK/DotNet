@@ -111,3 +111,4 @@ http://www.mvnrepository.com/
 MSDN:
 doc:https://msdn.microsoft.com/zh-cn/library/system.io.aspx
 Ô´Âë£ºhttp://referencesource.microsoft.com/#mscorlib/system/io/file.cs,1c7421e464f67b7e
+C#¹Ø¼ü×Ö£ºhttps://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/abstract

@@ -1,0 +1,43 @@
+.Net培训班课程体系
+
+.Net培训 第一部分：.Net基础
+.Net基础：数据类型、变量、运算符、分支结构、循环结构、方法、反编译器、递归、递归算法的非递归优化；
+面向对象：异常、封装继承多态、单例模式、装饰者设计模式、this本质论、static、namespace、类型转换、is与as、抽象类、接口、宫廷系统案例、foreach、随机数及案例；
+常用类库：String与StringBuilder、可空类型、文件操作（File、Directory、FileStream、StreamReader、StreamWriter）、常用数据结构（List、Dictionary、Set、Queue、Stack等）；
+
+.Net培训 第二部分：数据库开发
+SQL语言：基础语句（Select、Delete、Insert、Update）、Where、聚合函数、排序与分组、联合查询、外键约束、子查询、MySQL数据库、SQLServer数据库；
+ADO.Net：基础类、SQL注入漏洞与参数化查询、离线结果集、事务、ADO.Net中的多态编程、海量数据高速插入（SQLServer、MYSQL两套方案）；
+
+.Net培训 第三部分：.Net高级技术
+高级特性：多项目开发、CLR、CTS、CLS、IL与程序集、索引器、密闭类、静态类与扩展方法、深拷贝和浅拷贝、结构体、值类型与引用类型、拆箱装箱、字符串拘留池、ref与out、正则表达式、XML、序列化；
+委托与事件：委托语法、内置委托Func和Action、匿名方法、lambda表达式、lambda的推演、lambda原理探秘、常用扩展方法、事件本质论；
+反射：反射、实现通用对象拷贝、Attribute及案例、自动动手写ORM引擎；
+三层架构：三层架构的原理、代码生成器、项目案例；
+
+.Net培训 第四部分：Web前端
+HTML与CSS：基本标签、li与ol、表单、框架、div、HTML5；常用选择器、常用样式、盒子模型、定位方式；
+Javascript：基础语法、json、神奇的Array、常用Javascript类、JS的调试技巧；
+JS Dom：节点的获取、元素的操作、节点创建、事件与冒泡、项目案例；
+JQuery：隐式迭代、选择器、JQuery如何实现JSDom中的效果、JQuery EasyUI；
+
+.Net培训 第五部分：ASP.Net核心编程
+Web底层原理：Socket编程、自己编写浏览器、自己编写WebServer、Http协议、HttpHandler、核心对象（Request、Response、Server、Application）
+ASP.Net深入：不用控件的ASP.Net、上传下载、验证码、网站开发安全防范、Cookie与Session、自己编写Session类、分布式Session；
+ASP.Net高级：狂虐WebForm、AJAX、Json、JQuery AJAX、ServerPush、Global、UrlRewrite、缓存、笨重的母版页与轻量级的SSI、网站部署与IIS配置；
+
+.Net培训 第六部分：ASP.net MVC
+EF基础：C#6.0新语法、Nuget、var与类型推断、匿名类、dynamic、Entity Framework的使用、三种EF开发模式、linq、EF性能优化、EF本质论、SQL监控、EF中执行原生SQL、导航属性与lazyload；主要讲解目前最流行的FluentAPI方式配置CodeFirst；EF对象状态转换；EF关系配置秘诀（一对多、多对多）；EF实体继承；
+ASP.Net MVC：：Razor语法详解；分页、数据传输方式（ViewBag、ViewData、TempData、Model）、各种ActionResult、四种Filter（IAuthorizationFilter、IActionFilter、IResultFilter、IExceptionFilter）、HtmlHelper、路由机制、验证、layout；
+
+.Net培训 第七部分：掌上租项目(点击查看项目介绍)
+这是一个使用ASP.Net MVC+Entity Framework(FluentAPI CodeFirst)+AutoFac等技术开发的互联网项目，全程采用TDD开发流程。主要的技术有：
+前端技术：前端MVC引擎(artTemplate)、HUI、MUI（手机端自适应）、ValidForm、Layer；
+.Net高级技术：自定义Filter、自定义ModelBinder、ASP.Net MVC+EntityFramework最佳实践；
+大型网站架构：UnitTest、AutoFac、分布式架构（Redis、Memecached等）、CDN与云存储、云计算服务（短信验证、SendCloud邮件云）、RBAC权限控制、页面静态化和SSI；数据库并发控制（悲观锁与乐观锁）；
+高级开源组件：ElasticSearch全文搜索引擎；Quartz.Net定时调度；UEditor；Log4Net最新版；互联网网站安全（XSS、CSRF等）；CodeCarvings.Piczard（水印、缩略图）；CaptchaGen（验证码）；WebUploader文件无刷新上传；
+
+.Net培训 第八部分：扩展高级技术
+高级数据库操作：MySQL命令行操作、DML（Create Table、Alter Table等）、having、相关子查询、数据库安全控制、视图、存储过程、触发器；
+团队项目开发：源代码版本管理系统、Bug管理系统；
+微信小程序开发(点击查看项目介绍)：微信小程序开发基础；《驾考宝典》项目开发；
